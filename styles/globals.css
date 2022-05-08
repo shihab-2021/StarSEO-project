@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 html,
 body {
   padding: 0;
@@ -14,3 +17,11 @@ a {
 * {
   box-sizing: border-box;
 }
+/* @layer components {
+  .link-item {
+    @apply two relative mr-5 w-max text-base font-bold text-white hover:text-white;
+  }
+  .link-hover {
+    @apply absolute -bottom-1 bg-white transition-all;
+  }
+} */
