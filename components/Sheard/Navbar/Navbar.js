@@ -106,9 +106,9 @@ const Navbar = () => {
   );
   return (
     <div className="">
-      <header className="body-font absolute z-10 w-full text-black">
+      <header className="body-font z-10 w-full text-black">
         <Container>
-          <div className="mt-5 flex ">
+          <div className="mt-5 flex justify-between">
             <Link href="/">
               <a className="flex justify-center">
                 <img
@@ -153,6 +153,18 @@ const Navbar = () => {
                   </a>
                 </Link>
               </nav>
+            </div>
+            <div className="flex items-center">
+              <Link className="flex" href="/">
+                <a className="border-2 items-center py-1 px-6 border-gray-400 mr-4">
+                  Login
+                </a>
+              </Link>
+              <Link className="flex" href="/">
+                <a className="border-2 items-center py-1 px-6 bg-emerald-500 border-emerald-500">
+                  Register
+                </a>
+              </Link>
             </div>
           </div>
         </Container>
