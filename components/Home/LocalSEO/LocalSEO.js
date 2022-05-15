@@ -4,10 +4,10 @@ import ThumbUpAltIcon from "@mui/icons-material/ThumbUpAlt";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
-const Backlinks = () => {
+const LocalSEO = () => {
   return (
     <div className="container mx-auto">
-      <h1 className="text-5xl font-semibold py-4">Backlinks</h1>
+      <h1 className="text-5xl font-semibold py-4">Local SEO</h1>
 
       <div className="holder mx-auto grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
         <div className="each mb-10 m-2 shadow-lg border-2 border-sky-300 bg-gray-100 relative rounded-xl">
@@ -251,4 +251,4 @@ const Backlinks = () => {
   );
 };
 
-export default Backlinks;
+export default LocalSEO;
