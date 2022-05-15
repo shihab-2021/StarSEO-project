@@ -107,7 +107,7 @@ const Navbar = () => {
   return (
     <div className="">
       <header className="body-font z-10 w-full text-black">
-        <Container>
+        <div className="container mx-auto">
           <div className="mt-5 flex justify-between">
             <Link href="/">
               <a className="flex justify-center">
@@ -167,7 +167,7 @@ const Navbar = () => {
               </Link>
             </div>
           </div>
-        </Container>
+        </div>
       </header>
     </div>
   );
